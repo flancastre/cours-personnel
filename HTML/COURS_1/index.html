@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- commentaire -->
+    <title>Cour HTML</title>
+    <!--Icone -->
+    <link rel="shorcut icon" href="icone.png">
+</head>
+
+<body>
+    <header>
+        <h1> <span>&#9758;</span> Texte - Titre H1 </h1>
+        <p>
+            Texte Basique <em>texte en italique .</em> <strong>et texte en gras </strong>
+          <details><p> <summary> Lorem ipsum dolor sit... </summary>amet consectetur adipisicing elit. Ducimus consequuntur iusto molestiae expedita, dolorem minima explicabo sint, vel, voluptate fuga voluptates consectetur deleniti cumque! Ab laudantium sed nostrum ratione! Eaque!
+            </p>
+        </p>
+           </details> 
+    </header>
+    <section>
+      
+        <div>
+          
+            <h2>photo - Titre H2 </h2>
+       <figure>
+            <img src="tof.jpg" height="200" alt="photo d'un paysage">paysage
+        </figure>
+        </div>
+        <div>
+            <h3>liste - Titre h3 </h3>
+            <ul>
+                <li>UL- Unorder list</li>
+                <li>UL- Unorder list</li>
+                <li>UL- Unorder list</li>
+            </ul>
+            <ol>
+                <li>Order list</li>
+                <li>Order list</li>
+                <li>Order list</li>
+                <li>Order list</li>
+            </ol>
+        </div>
+        <div>
+            <h4>Tableau - Titre h4 </h4>
+
+        <table border="1" width="50%">
+            <!-- legende -->
+            <caption>Population d'europe</caption>
+            <!-- en tete  -->
+            <thead>
+                <tr>
+                    <th>pays</th>
+                    <th>Population</th>
+                </tr>
+            </thead>
+            <!-- corp tableau -->
+            <tbody>
+                <tr>
+                    <td>France</td>
+                    <td>45million</td>
+                </tr>
+                <tr>
+                    <td>Italie</td>
+                    <td>40million</td>
+                </tr>
+            <tr>
+                    <td>All</td>
+                    <td>5million</td>
+     </tr>
+         </tbody>
+        </table>
+        </div>
+        <div>
+            <h5> lien - Titre H5 </h5>
+            <a href="https://www.youtube.com" target="_blank"> Cliquer dessus</a>
+
+        </div>
+        <div>
+            <h6>Video -Titre H6 </h6>
+            <video src="video.mp4" autoplay loop muted height="150" controls></video>
+     </div>
+    </section>
+    <br>
+    <section>
+        <!-- formulaire  -->
+    <h2>formulaire</h2>
+    <form action="/action.php" method="post">
+      <label for="name">Entrez votre nom </label>  <input type="text" id="name" placeholder="Entrez ici">
+     <br>
+      <label for="age">Age</label>
+      <input id="age" type="number" min="0" max="99" step="1" value="18">
+        <br>
+
+        <!-- Input select  -->
+        <label for="gender"> Genre</label>
+       <select  id="gender" >
+        <option value="homme">homme</option>
+        <option selected value="femme">femmme</option>
+
+       </select>
+       <br>
+
+       <!-- input radio -->
+
+       <div>
+        <input type="radio" name="type"id="human">
+        <label for="human">humain</label>
+
+        <input type="radio" name="type"id="dog" checked>
+        <label for="dog">chien</label>
+
+        <input type="radio" name="type"id="chat">
+        <label for="chat">chat</label>
+       </div>
+
+       <textarea  cols="30" rows="10" placeholder="met ton texte ici"></textarea>
+       <br>
+<!-- 
+       check box -->
+
+     <label><input type="checkbox">Accepter le CGV</label>  
+     <label><input type="checkbox">Accepter le CGV</label>  
+     <label><input type="checkbox">Accepter le CGV</label>  
+     <label><input type="checkbox">Accepter le CGV</label>  
+
+     <br><input type="submit" value="valider">
+    </form>
+    </section>
+
+    <footer>
+       <a href="mailto:kvmvdeva@gmail.com">Ecrivez moi</a> <br>
+
+       <a href="Direction.txt" >Test</a>
+
+    </footer>
+
+</body>
+</html>
